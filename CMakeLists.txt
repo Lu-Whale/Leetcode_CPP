@@ -3,4 +3,6 @@ project(Leetcode_CPP)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Leetcode_CPP main.cpp)
+add_executable(Leetcode_CPP main.cpp
+        FileNameGenerator.cpp
+        Daily_Question/_165_Compare_Version_Numbers.cpp)
