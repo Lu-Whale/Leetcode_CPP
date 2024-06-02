@@ -1,0 +1,19 @@
+//
+// Created by 卢京宇 on 2/6/2024.
+//
+#include <vector>
+using namespace std;
+
+
+class _344_Reverse_String {
+public:
+    void reverseString(vector<char>& s) {
+        int left = 0, right = s.size() - 1;
+        while (left < right) {
+            char temp = s[left];
+            s[left++] = s[right];
+            s[right--] = temp;
+        }
+        // reverse(s.begin(), s.end());
+    }
+};
