@@ -2,15 +2,30 @@
 
 ## Lucas's LeetCode Solutions and Reflections 😊
 
-- ✅ I made a c++ file name generator in the root directory which used to generate the java file name (Since I always copy the problem name from Leetcode and used it as a file name, but it contains space or illegal characters) Feel free to use it :)
-- This is a c++ solution repository for Leetcode problems, for more solutions, please refer to my [Leetcode_Java_Solutions](https://github.com/Lu-Whale/Leetcode_Java)
-- Start recording from 3 May 2024
+- ✅ I developed a C++ filename generator in the root directory to automatically create valid filenames for each solution. This utility addresses the issue of copying problem names directly from LeetCode, which may include spaces or illegal characters. Feel free to use it to streamline your workflow. :)
+- For additional solutions implemented in Java, please visit my [Leetcode_Java_Solutions](https://github.com/Lu-Whale/Leetcode_Java)
+- Recording started on 3 May 2024
 
 ---
 
 # Note:
 
-## Dynamic Programing (DP):
+## Table of Contents
+- [Dynamic Programming (DP)](#dynamic-programming)
+- [Binary Search](#binary-search)
+- [Priority Queue](#priority-queue)
+- [Merge Sort](#merge-sort)
+- [Deep First Search (DFS)](#deep-first-search)
+- [Backtracking](#backtracking)
+- [Prefix Sum with Hashmap](#prefix-sum-with-hashmap)
+- [Graph](#graph)
+   - [Topological Sorting](#topological-sorting)
+   - [Union-Find (DSU)](#union-find-disjoint-set-union-dsu)
+   - [Dijkstra's Algorithm](#dijkstra-algorithm)
+- [Sliding Window](#sliding-window)
+- [Bit Manipulation](#bit-manipulation)
+
+## Dynamic Programming
 
 #### When solving Dynamic Programming (DP) problems, it is usually necessary to follow a series of steps. The following is the general logic for solving DP problems:
 
